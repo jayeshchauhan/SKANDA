@@ -3,7 +3,7 @@
 <h1>Enter the URL of an image on the Internet</h1>
 <h3>This page uses the file_get_contents and file_put_contents PHP functions.</h3>
 <form method="post" action="">
-<input type=text name="url" id="url" size="100"/>
+<input type=text name="url" id="url" size="50"/>
 <input type="submit" class="button" value="submit" />
 </form>
 
