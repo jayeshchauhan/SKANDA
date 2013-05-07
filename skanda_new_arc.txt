@@ -1,6 +1,0 @@
--fucntion with two parameter(port to be scanned, timeout)
--if function timesout then send the base request again
--if base request gets a positive response then resend the timed out request. if that gets timedout as well then there is something fishy with the port.
--if the base line request times out, then pause the scan and notify the user. once he checks his internet connection, he can resume again.
--one new function should "try, except" the scan function.
--Set the DiffLevel value dynamically, grab the response of localhost:1 and localhost:2 and then average the response and then add +2 value to it.
