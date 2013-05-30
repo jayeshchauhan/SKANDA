@@ -5,4 +5,4 @@ About
 Screeshots
 ==========
 
-![Skanda Screenshot 1](https://github.com/jayeshchauhan/skanda/blob/master/skanda.JPG?raw=true)
+![Skanda Screenshot 1](https://raw.github.com/jayeshchauhan/SKANDA/master/Skanda.JPG)
