@@ -11,7 +11,7 @@ Features
 ========
 * Exploits SSRF vulnerability.
 * Specially crafted payloads.
-* Does a port scan on the vulnerable server and list out the ports.
+* Does a port scan on the vulnerable server and list out the port status.
 * Error and time delay based analysis of payloads results in port status.
 * Port Status : 
   * **Closed**: where the port is closed.
