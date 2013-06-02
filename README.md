@@ -23,4 +23,4 @@ Features
 How to use
 ==========
 
-* [Here](https://github.com/jayeshchauhan/SKANDA/blob/master/Skanda.docx)is an article written by me, to use Skanda efficiently.
+* [Here] (https://github.com/jayeshchauhan/SKANDA/blob/master/Skanda.docx)is an article written by me, to use Skanda efficiently.
