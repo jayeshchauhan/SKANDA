@@ -14,6 +14,6 @@ Features
 * Does a port scan on the vulnerable server and list out the ports.
 * Error and time delay based analysis of payloads results in port status.
 * Port Status : 
-** Closed: where the port is closed.
-** Open(Error Based): the port status is determined based on the error message received when connecting to the port.
-** Open (Blind XSPA): The port status is determined based on the response time. 
+  * Closed: where the port is closed.
+  * Open(Error Based): the port status is determined based on the error message received when connecting to the port.
+  * Open (Blind XSPA): The port status is determined based on the response time. 
