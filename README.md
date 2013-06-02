@@ -4,7 +4,7 @@
 
 About
 =====
-Scans the ports on the server, using SSRF vulnerability. Select any SSRF vulnerable request in [IronWASP](http://ironwasp.org/) logs, right click and run this module. Select the vulnerable injection points(GET/POST parameters) and session plugins if any are required. Port Status will be printed in the CLI.
+Skanda scans the ports on the server, using SSRF vulnerability. Select any SSRF vulnerable request in [IronWASP](http://ironwasp.org/) logs, right click and run this module. Select the vulnerable injection points(GET/POST parameters) and session plugins if any are required. Port Status will be printed in the CLI.
 This first version is able to do port scan of the server. Future versions will able to scan and exploit the intranet of the vulnerable server.
 
 Features
@@ -19,3 +19,8 @@ Features
   * **Open (Blind XSPA)**: The port status is determined based on the response time. 
 * Skanda also gives the user the ability to customize the scan.
 * Instead of running the scan for all the ports, user can make the scan, port specific.
+
+How to use
+==========
+
+* Here[https://github.com/jayeshchauhan/SKANDA/blob/master/Skanda.docx] is an article written by me, to use Skanda efficiently.
