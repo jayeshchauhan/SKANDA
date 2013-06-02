@@ -15,7 +15,7 @@ Features
 * Error and time delay based analysis of payloads results in port status.
 * Port Status : 
   * **Closed**: where the port is closed.
-  * **Open(Error Based)**: the port status is determined based on the error message received when connecting to the port.
+  * **Open**: the port status is determined based on the error message received when connecting to the port.
   * **Open (Blind XSPA)**: The port status is determined based on the response time. 
 * Skanda also gives the user the ability to customize the scan.
 * Instead of running the scan for all the ports, user can make the scan, port specific.
