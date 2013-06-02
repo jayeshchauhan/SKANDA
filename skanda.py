@@ -1,3 +1,20 @@
+#
+# Copyright 2013 Jayesh Singh Chauhan
+#
+# This file is part of Skanda - SSRF Exploitation Framework
+#
+# Skanda is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, version 3 of the License.
+#
+# Skanda is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+#  http://www.gnu.org/licenses/
+#
+
 from IronWASP import *
 import re
 import time
@@ -18,11 +35,11 @@ class Skanda(Module):
 	def StartModuleOnSession(self, sess):
 		#IronConsole is a CLI window where output can be printed and user input accepted
 		self.console = IronConsole()
-		self.console.SetTitle('Skanda')
+		self.console.SetTitle('OWASP Skanda')
 		self.console.ConsoleClosing += lambda e: self.close_console(e)
 		self.console.ShowConsole()
 		#'Print' prints text at the CLI. 'PrintLine' prints text by adding a newline at the end.
-		self.console.PrintLine('Skanda - SSRF Exploitation Framework v0.1')
+		self.console.PrintLine('OWASP Skanda - SSRF Exploitation Framework v0.1')
 		self.console.PrintLine('Copyright 2013 Jayesh Singh Chauhan')
 		self.console.PrintLine('License : GPL v3 - http://opensource.org/licenses/GPL-3.0')
 		self.console.PrintLine('https://github.com/jayeshchauhan/skanda')
@@ -86,7 +103,7 @@ class Skanda(Module):
 		self.console.PrintLine('')
 		self.console.PrintLine('[*] Starting the scan.')
 		self.console.PrintLine('')
-		self.console.PrintLine('[*]Performing initial diagnostics. This will take a while')
+		self.console.PrintLine('[*]Performing initial diagnostics. This might take a while')
 		self.error_xspa = []
 		self.blind_xspa = []
 		self.base_req = sess.Request
@@ -173,7 +190,7 @@ class Skanda(Module):
 				return
 		port_status = self.check_port_status(res,self.res_1,self.body_diff)
 		self.console.PrintLine("Port " + (' '*(5-len(str(port)))) + str(port) + " is " + port_status)
-		if port_status == ' Open':
+		if port_status == 'Open':
 			self.error_xspa.append(str(port))
 		
 	def check_port_status(self,response1,response2,threshold):
@@ -198,5 +215,6 @@ class Skanda(Module):
 m = Skanda()
 #Call the GetInstance method on this instance which will return a new instance with all the approriate values filled in. Add this new instance to the list of Modules
 Module.Add(m.GetInstance())
+
 
 
