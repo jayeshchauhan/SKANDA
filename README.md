@@ -1,5 +1,5 @@
 ![Skanda Screenshot 1](https://raw.github.com/jayeshchauhan/SKANDA/master/Skanda.JPG)
-[OWASP Skanda - SSRF Exploitation Framework v0.1](owasp.org/index.php/OWASP_Skanda_SSRF_Exploitation_Framework)
+[OWASP Skanda - SSRF Exploitation Framework v0.1](https://owasp.org/index.php/OWASP_Skanda_SSRF_Exploitation_Framework)
 ==========================================
 
 About
